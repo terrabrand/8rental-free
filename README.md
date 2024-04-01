@@ -1,62 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laravel Rental Management System</title>
+</head>
+<body>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1>Laravel Rental Management System</h1>
 
-## About Laravel
+<img src="images/project_image.png" alt="Project Image">
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>A comprehensive rental management system built with Laravel that allows you to manage tenants, rents, landlords, maintainers, properties, and units efficiently.</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Features</h2>
+<ul>
+  <li><strong>Tenant Management:</strong> Easily add, update, and remove tenants.</li>
+  <li><strong>Rent Management:</strong> Keep track of rent payments and due dates.</li>
+  <li><strong>Landlord Management:</strong> Manage information about landlords.</li>
+  <li><strong>Maintainer Management:</strong> Track maintainers responsible for property maintenance.</li>
+  <li><strong>Property Management:</strong> Add, edit, and view properties.</li>
+  <li><strong>Unit Management:</strong> Manage individual units within properties.</li>
+</ul>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2>Demo</h2>
 
-## Learning Laravel
+<p>Check out the following YouTube video for a demonstration of the system:</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4azHwDcenIU" frameborder="0" allowfullscreen></iframe>
+</div>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h2>Installation</h2>
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/your_username/rental-management-system.git</code></pre>
+  </li>
+  <li>Navigate into the project directory:
+    <pre><code>cd rental-management-system</code></pre>
+  </li>
+  <li>Install dependencies:
+    <pre><code>composer install</code></pre>
+  </li>
+  <li>Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>. Update the necessary configurations (database connection, etc.):
+    <pre><code>cp .env.example .env</code></pre>
+  </li>
+  <li>Generate an application key:
+    <pre><code>php artisan key:generate</code></pre>
+  </li>
+  <li>Migrate the database:
+    <pre><code>php artisan migrate</code></pre>
+  </li>
+  <li>Run the server:
+    <pre><code>php artisan serve</code></pre>
+  </li>
+</ol>
 
-## Laravel Sponsors
+<h2>Screenshots</h2>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<img src="images/screenshot1.png" alt="Screenshot 1">
 
-### Premium Partners
+<img src="images/screenshot2.png" alt="Screenshot 2">
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+<h2>Contributing</h2>
+<p>Contributions are welcome! Please feel free to submit a pull request.</p>
 
-## Contributing
+<h2>License</h2>
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+</body>
+</html>
