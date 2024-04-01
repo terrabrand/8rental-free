@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laravel Rental Management System</title>
+
 </head>
 <body>
 
@@ -27,9 +27,8 @@
 
 <p>Check out the following YouTube video for a demonstration of the system:</p>
 
-<div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4azHwDcenIU" frameborder="0" allowfullscreen></iframe>
-</div>
+
+https://www.youtube.com/watch?v=4azHwDcenIU&ab_channel=TerraBrandTech
 
 <h2>Installation</h2>
 <ol>
