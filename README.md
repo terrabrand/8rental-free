@@ -7,9 +7,9 @@
 </head>
 <body>
 
-<h1>Laravel Rental Management System</h1>
+<h1>Laravel Rental Management System 8RENTAL LITE FREE</h1>
 
-<img src="images/project_image.png" alt="Project Image">
+<img src="screenshots/screenshot.png" alt="Project Image">
 
 <p>A comprehensive rental management system built with Laravel that allows you to manage tenants, rents, landlords, maintainers, properties, and units efficiently.</p>
 
@@ -33,11 +33,12 @@ https://www.youtube.com/watch?v=4azHwDcenIU&ab_channel=TerraBrandTech
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your_username/rental-management-system.git</code></pre>
+    <pre><code>git clone https://github.com/terrabrand/8rental-free.git </code></pre>
   </li>
   <li>Navigate into the project directory:
-    <pre><code>cd rental-management-system</code></pre>
+    <pre><code>cd 8rental-free</code></pre>
   </li>
+    <h2>OPTIONAL</h2>
   <li>Install dependencies:
     <pre><code>composer install</code></pre>
   </li>
@@ -57,15 +58,20 @@ https://www.youtube.com/watch?v=4azHwDcenIU&ab_channel=TerraBrandTech
 
 <h2>Screenshots</h2>
 
-<img src="images/screenshot1.png" alt="Screenshot 1">
+<img src="screenshots/screenshot4.png" alt="Screenshot 1">
 
-<img src="images/screenshot2.png" alt="Screenshot 2">
+<img src="screenshots/screenshot8.png" alt="Screenshot 2">
+
+<img src="screenshots/screenshot11.png" alt="Screenshot 2">
 
 <h2>Contributing</h2>
 <p>Contributions are welcome! Please feel free to submit a pull request.</p>
 
+<h2>Made with love</h2>
+<p>Made in Dar es salaam , Tanzania by <a href="https://terra-brand.cloud/">TERRABRAND</a> </p>
+
 <h2>License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<p>This project is licensed under the <a href="LICENSE">EULA</a>.</p>
 
 </body>
 </html>
